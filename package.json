@@ -1,0 +1,45 @@
+{
+    "name": "hangman",
+    "version": "1.0.0",
+    "description": "A CLI game built with Node",
+    "directories": {
+      "test": "test"
+    },
+    "bin": {
+      "hangman": "./bin/run"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/ingridleeabdala/hangman.git"
+    },
+    "keywords": [
+      "hangman",
+      "game"
+    ],
+    "author": "Ingrid Lee <ingridabdalalee@gmail.com>",
+    "license": "UNLICENSED",
+    "private": true,
+    "bugs": {
+      "url": "https://github.com/ingridleeabdala/hangman/issues"
+    },
+    "homepage": "https://github.com/ingridleeabdala/hangman#readme",
+    "oclif": {
+      "bin": "hangman"
+    },
+    "dependencies": {
+      "@oclif/command": "^1.5.19",
+      "@oclif/config": "^1.14.0",
+      "@oclif/plugin-help": "^2.2.3"
+    },
+    "devDependencies": {
+      "@oclif/dev-cli": "^1.22.2",
+      "eslint": "7.19.0",
+      "eslint-config-prettier": "7.2.0",
+      "eslint-plugin-prettier": "3.4.0",
+      "pino-pretty": "4.7.1",
+      "prettier": "2.2.1"
+    }
+  }
