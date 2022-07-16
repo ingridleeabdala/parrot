@@ -30,6 +30,18 @@ class Inquirer {
 
     return answers.text;
   }
+
+  async askConfirmation() {
+    const answers = await inquirer.prompt([
+      {
+        type: "confirm",
+        name: "confirmation",
+        message: "Would you like to call this number?",
+      },
+    ]);
+
+    return answers.confirmation;
+  }
 }
 
 module.exports = Inquirer;

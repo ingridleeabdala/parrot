@@ -19,9 +19,13 @@ class Controller {
 
     this.log(text);
 
-    const caller = new Caller(this.log);
+    const confirmation = await inquirer.askConfirmation();
 
-    await caller.call(phoneNumber, text);
+    if (confirmation) {
+      const caller = new Caller(this.log);
+
+      await caller.call(phoneNumber, text);
+    }
   }
 }
 
