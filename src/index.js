@@ -1,31 +1,33 @@
 "use strict";
 
+require("dotenv").config();
+
 const { Command, flags } = require("@oclif/command");
 
-const Engine = require("./engine");
+const Controller = require("./controller");
 const FileManager = require("./file-manager");
 
-class HangmanCliCommand extends Command {
+class ParrotCliCommand extends Command {
   async run() {
-    const engine = new Engine(this.log);
+    const ctl = new Controller(this.log);
 
     this.log(FileManager.readBanner());
 
     try {
-      await engine.startGame();
+      await ctl.start();
     } catch (error) {
       this.log(error);
     }
   }
 }
 
-HangmanCliCommand.description = `A CLI game built with Node`;
+ParrotCliCommand.description = `A CLI application to make calls and prank people`;
 
-HangmanCliCommand.flags = {
+ParrotCliCommand.flags = {
   // add --version flag to show CLI version
   version: flags.version({ char: "v" }),
   // add --help flag to show CLI version
   help: flags.help({ char: "h" }),
 };
 
-module.exports = HangmanCliCommand;
+module.exports = ParrotCliCommand;

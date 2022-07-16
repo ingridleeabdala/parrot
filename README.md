@@ -1,48 +1,45 @@
 ```
-    ___________.._______
-    | .__________))______|
-    | | / /      ||
-    | |/ /       ||
-    | | /        ||.-''.
-    | |/         |/  _  \
-    | |          ||  `/,|
-    | |          (\\`_.'
-    | |         .-`--'.
-    | |        /Y . . Y\
-    | |       // |   | \\
-    | |      //  | . |  \\
-    | |     ')   |   |   (`
-    | |          ||'||
-    | |          || ||
-    | |          || ||
-    | |          || ||
-    | |         / | | \
-    """"""""""|_`-' `-' |"""|
-    |"|"""""""\ \       '"|"|
-    | |        \ \        | |
-    : :         \ \       : :  Hangman
-    . .          `'       . .
+               .------.
+           /  ~ ~   \,------.      ______
+         ,'  ~ ~ ~  /  (@)   \   ,'      \
+       ,'          /`.    ~ ~ \ /         \
+     ,'           | ,'\  ~ ~ ~ X     \  \  \
+   ,'  ,'          V--<       (       \  \  \
+ ,'  ,'               (vv      \/\  \  \  |  |
+(__,'  ,'   /         (vv   ""    \  \  | |  |
+  (__,'    /   /       vv   """    \ |  / / /
+      \__,'   /  |     vv          / / / / /
+          \__/   / |  | \         / /,',','
+             \__/\_^  |  \       /,'',','\
+                    `-^.__>.____/  ' ,'   \
+                            // //---'      |
+          ===============(((((((=================
+                                     | \ \  \
+                                     / |  |  \
+                                    / /  / \  \
+                                    `.     |   \
+                                      `--------'  Parrot
 ```
 
-> A CLI game built with Node
+> A CLI application to make calls and prank people
 
 # Installation
 
 ```bash
-$ npm install -g hangman-cli-game
+$ npm install -g parrot-cli-app
 ```
 
 # Getting Started
 
 ```bash
-$ hangman
+$ parrot
 ```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/ingridleeabdala/hangman](https://github.com/ingridleeabdala/hangman). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/ingridleeabdala/parrot](https://github.com/ingridleeabdala/parrot). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-1. Fork it [ingridleeabdala/hangman](https://github.com/ingridleeabdala/hangman/fork)
+1. Fork it [ingridleeabdala/parrot](https://github.com/ingridleeabdala/parrot/fork)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am "Add some feature"`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -50,7 +47,7 @@ Bug reports and pull requests are welcome on GitHub at [https://github.com/ingri
 
 ## Support
 
-If you have any problem or suggestion please open an issue [here](https://github.com/ingridleeabdala/hangman/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/ingridleeabdala/parrot/issues).
 
 ## License
 

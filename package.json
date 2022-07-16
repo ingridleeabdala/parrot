@@ -1,46 +1,49 @@
 {
-  "name": "hangman-cli-game",
+  "name": "parrot-cli-app",
   "version": "1.0.0",
-  "description": "A CLI game built with Node",
+  "description": "A CLI application to make calls and prank people",
   "directories": {
     "test": "test"
   },
   "bin": {
-    "hangman": "./bin/run"
+    "parrot": "./bin/run"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ingridleeabdala/hangman.git"
+    "url": "git+ssh://git@github.com/ingridleeabdala/parrot.git"
   },
   "keywords": [
-    "hangman",
-    "game"
+    "parrot",
+    "prankster"
   ],
   "author": "Ingrid Lee <ingridabdalalee@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
   "private": true,
   "bugs": {
-    "url": "https://github.com/ingridleeabdala/hangman/issues"
+    "url": "https://github.com/ingridleeabdala/parrot/issues"
   },
   "files": [
     "/bin",
     "/src"
   ],
-  "homepage": "https://github.com/ingridleeabdala/hangman#readme",
+  "homepage": "https://github.com/ingridleeabdala/parrot#readme",
   "oclif": {
-    "bin": "hangman"
+    "bin": "parrot"
   },
   "dependencies": {
-    "@oclif/command": "^1.5.19",
-    "@oclif/config": "^1.14.0",
-    "@oclif/plugin-help": "^2.2.3"
+    "@oclif/command": "1.5.19",
+    "@oclif/config": "1.14.0",
+    "@oclif/plugin-help": "2.2.3",
+    "dotenv": "^16.0.1",
+    "inquirer": "8.0.0",
+    "twilio": "^3.79.0"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1.22.2",
+    "@oclif/dev-cli": "1.22.2",
     "eslint": "7.19.0",
     "eslint-config-prettier": "7.2.0",
     "eslint-plugin-prettier": "3.4.0",
